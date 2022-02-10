@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "npmClient": "npm",
+  "type": "app",
+  "plugins": [
+    {
+      "type": "provider",
+      "name": "@koopjs/koop-provider-hub-search",
+      "srcPath": "koop-provider-hub-search",
+      "local": false
+    },
+    {
+      "type": "output",
+      "name": "output-custom-catalog",
+      "srcPath": "output-custom-catalog",
+      "local": true
+    }
+  ]
+}
